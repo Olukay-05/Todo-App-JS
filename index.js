@@ -8,6 +8,17 @@ let tasks = document.getElementById("tasks");
 let add = document.getElementById("add");
 
 
+// const options = {
+// 	method: 'GET',
+	
+// };
+
+// fetch('', options)
+// 	.then(response => response.json())
+// 	.then(response => console.log(response))
+// 	.catch(err => console.error(err));
+
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   formValidation();
